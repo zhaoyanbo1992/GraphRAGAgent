@@ -1,0 +1,95 @@
+[
+    {
+        "type": "text",
+        "text": "Quarterly Financial Report (Demo)",
+        "text_level": 2,
+        "bbox": [
+            90,
+            83,
+            534,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "This is a sample report generated for the MinerU MVP pipeline test.",
+        "bbox": [
+            90,
+            137,
+            648,
+            155
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The purpose is to validate document upload, cloud parsing, and",
+        "bbox": [
+            90,
+            162,
+            618,
+            179
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "the layout information returned by the MinerU extract API.",
+        "bbox": [
+            90,
+            185,
+            569,
+            203
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Total revenue in Q3 was 12.5 billion CNY, up 18.2% year over year.",
+        "bbox": [
+            89,
+            231,
+            652,
+            250
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Gross margin reached 41.6%, while operating expenses were 4.8 billion.",
+        "bbox": [
+            90,
+            256,
+            689,
+            273
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Quarterly Results (Unit: billion CNY)",
+        "text_level": 2,
+        "bbox": [
+            90,
+            86,
+            470,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/e5c6a07515983a7e1b483806c903a1a4aabc801131e111b83a663bd65650df54.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Quarter</td><td>Revenue</td><td>Net Profit</td><td>Margin</td></tr><tr><td>Q1</td><td>8.3</td><td>0.9</td><td>10.8%</td></tr><tr><td>Q2</td><td>10.1</td><td>1.2</td><td>11.9%</td></tr><tr><td>Q3</td><td>12.5</td><td>1.6</td><td>12.8%</td></tr></table>",
+        "bbox": [
+            92,
+            156,
+            857,
+            280
+        ],
+        "page_idx": 1
+    }
+]

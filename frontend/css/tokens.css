@@ -1,0 +1,71 @@
+/* ============================================================
+   审计台 · 设计令牌（对齐 web_prototype_spec v1.0 §1.2/§1.3）
+   ============================================================ */
+
+:root {
+  /* 纸面体系 */
+  --paper: #EFF2F5;
+  --card: #FFFFFF;
+  --card-tint: #F7F9FB;
+  --ink: #1B2A3A;
+  --ink-2: #43566B;
+  --muted: #6E7E8E;
+  --line: #D8DEE5;
+  --line-strong: #B9C4CF;
+
+  /* 主交互 */
+  --ink-blue: #2B5D8C;
+  --ink-blue-deep: #1E4668;
+  --ink-blue-wash: #E3EDF5;
+
+  /* 批注红：仅用于引用下划线、证据标记、错误批注、溯源跳转 */
+  --redline: #C4442E;
+  --redline-wash: #F9ECE8;
+
+  /* 语义色 */
+  --ok: #2E7D46;
+  --ok-wash: #E7F2EB;
+  --warn: #9A6B00;
+  --warn-wash: #F7EFD9;
+
+  /* 实体类型色（图谱节点与实体色块，全局一致） */
+  --type-metric: #2B5D8C;
+  --type-period: #B26A00;
+  --type-currency_value: #2E7D46;
+  --type-percentage: #7B3FA0;
+  --type-company: #C2447A;
+  --type-unknown: #6B7A88;
+
+  /* 字体栈 */
+  --serif: "Songti SC", "Noto Serif SC", "SimSun", Georgia, serif;
+  --sans: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --mono: "SF Mono", "JetBrains Mono", "Menlo", "Consolas", monospace;
+
+  /* 字号阶 */
+  --fs-13: 13px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+  --fs-18: 18px;
+  --fs-22: 22px;
+  --fs-27: 27px;
+  --fs-34: 34px;
+
+  /* 布局 */
+  --topbar-h: 56px;
+  --sidenav-w: 200px;
+  --content-max: 1280px;
+  --drawer-w: 360px;
+  --radius: 10px;
+
+  /* 阴影两档 */
+  --shadow-1: 0 1px 2px rgba(27, 42, 58, .05);
+  --shadow-2: 0 4px 16px rgba(27, 42, 58, .10);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

@@ -1,0 +1,19 @@
+[project]
+name = "rag-server"
+version = "1.0.0"
+description = "GraphRAG 审计台后端服务 (多模态 RAG 问答系统) — 独立项目, 不引用旧组件"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+    "requests>=2.31",
+    "networkx>=3.3",
+    "langextract>=1.0",
+    "langchain>=1.0",
+    "langgraph>=1.0",
+    "langchain-deepseek>=1.0",
+]
+
+[tool.uv]
+package = false
